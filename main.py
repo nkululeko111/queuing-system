@@ -1,14 +1,13 @@
 #NKululeko Zwane
 
-import time
+from queueing.que import *
+from notification import *
+from interface.front import *
 
 
-
-queue = []
-
-def add_people_to_que():
+def main():
     pass
 
-def send_notification():
-    pass
-    
+
+if __name__ == "__main__":
+    main()
